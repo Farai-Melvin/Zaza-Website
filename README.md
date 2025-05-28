@@ -1,5 +1,5 @@
 # Zaza-Website
-A repo for the develompment of the Zaza Ecosystem Website
+A repo for the development of the Zaza Ecosystem Website
 
 v0.0.1
 -  Exact figma design. Purple background, single page long.
