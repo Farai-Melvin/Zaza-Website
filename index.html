@@ -19,12 +19,12 @@
     <nav>
       <div id="placeholder-logo">Logo</div>
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html"><span id="current-page">Home</span></a></li>
         <li><a href="features.html">Features</a></li>
         <li><a href="faqs.html">FAQs</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="about.html">About</a></li>
-        <li><button id="sign-up-btn" class="orange-btn">Sign Up</button></li>
+        <li><button id="sign-up-btn" class="primary-btn">Sign Up</button></li>
       </ul>
     </nav>
   </header>
@@ -33,8 +33,10 @@
     <div id="parallax-bg"></div>
     <!-- Hero Section -->
     <section id="hero-section">
-      <h1>Lesson Planning in Under a Minute</h1>
-      <p>Built by educators. Powered by AI. Save 6+ hours each week with editable, hallucination-safe lesson plans grounded in pedagogy.</p>
+      <div>
+        <h1>Lesson Planning in <span class="secondary-color">Under a Minute</span></h1>
+        <p>Built by educators. Powered by AI. Save 6+ hours each week with editable, hallucination-safe lesson plans grounded in pedagogy.</p>
+      </div>
       <div class="iframe-wrapper">
         <iframe 
           width="565" 
@@ -47,14 +49,16 @@
           allowfullscreen>
         </iframe>
       </div>
-      <p>Be the first to access Zaza when we launch</p>
-      <button class="white-btn">Join the waitlist</button>
+      <div>
+        <p>Be the first to access Zaza when we launch</p>
+        <button class="secondary-btn">Join the waitlist</button>
+      </div>
     </section>
     
     <!-- Problem Section -->
     <section id="problem-section">
-      <h1>Planning lessons shouldn't feel like a second job.</h1>
-      <p>Every week, teachers spend 6+ hours building lesson plans from scratch. That’s time they don’t have.</p>
+      <h1>Planning lessons shouldn't <span class="primary-color">feel like a second job.</span></h1>
+      <p>Every week, teachers spend 6+ hours building lesson plans from scratch. That's time they don’t have.</p>
       <ul class="flex-ul">
         <li>
           <div class="list-item-div card">
@@ -89,7 +93,7 @@
       <p>Zaza is launching soon. Add your email below to get early access, updates, and exclusive content.</p>
       <form>
         <input type="email" placeholder="Your Email" required>
-        <button type="submit" class="purple-btn">Join the Waitlist</button>
+        <button type="submit" class="primary-btn">Join the Waitlist</button>
       </form>
       <p>We’ll notify you when the beta is live. No spam. Ever.</p>
     </section>

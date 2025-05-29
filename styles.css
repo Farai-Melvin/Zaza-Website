@@ -2,6 +2,7 @@
   --zazapurple: #8C3BF5;
   --zazapink: #FE2978;
   --zazaorange: #FD5566;
+  --zazablack: #463239;
 }
 
 body {
@@ -19,6 +20,7 @@ header {
   font-weight: bold;
   height: 70px;
   background-color: white;
+  padding-top: 10px;
 }
 
 #placeholder-logo {
@@ -55,7 +57,11 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: var(--zazaorange);
+}
+
+#current-page {
+  color: var(--zazapurple);
 }
 
 button {
@@ -79,18 +85,20 @@ button:active {
   transform: scale(0.8);
 }
 
-.white-btn {
+.primary-btn {
   background-color: white;
-  color: black;
+  color: var(--zazaorange);
+  border: 2px solid var(--zazaorange)
 }
 
-.orange-btn {
-  background-color: var(--zazaorange);
-  color: white;
+.secondary-btn {
+  background-color: white;
+  color: var(--zazapurple);
+  border: 2px solid var(--zazapurple)
 }
 
 main {
-  color: white;
+  color: black;
   padding: 50px 0;
 }
 
@@ -133,7 +141,8 @@ h1 + p {
 
 footer {
   padding: 20px;
-  background-color: white;
+  background-color: var(--zazablack);
+  color: white;
 }
 
 footer > p:last-of-type {
@@ -192,7 +201,6 @@ footer a {
   justify-content: space-around;
   padding: 40px;
   list-style: none;
-  color: white;
   font-weight: 500;
 }
 
@@ -202,7 +210,7 @@ footer a {
   border-radius: 15px;
   padding: 20px;
   margin-bottom: 10px;
-  border: 3px solid rgb(38, 38, 38);
+  border: 3px solid var(--zazapink);
 }
 
 .card {
@@ -215,11 +223,11 @@ footer a {
 }
 
 section {
-  padding: 40px 0px;
+  padding: 40px 40px;
   border-radius: 60px;
-  margin-bottom: 30px;
+  margin: 0 10px 30px 10px;
   opacity: 95%;
-  background-color: var(--zazaorange);
+  background-color: white;
 }
 
 /*section:nth-of-type(2n){
@@ -262,4 +270,12 @@ p {
     background-size: cover;
     background-position: center;
     z-index: -1;
+  }
+
+  .primary-color {
+    color: var(--zazapurple)
+  }
+
+  .secondary-color {
+    color: var(--zazaorange)
   }

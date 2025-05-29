@@ -20,3 +20,10 @@ v0.2.0
 -  Switched to rounded card type sections for the layout. 95% opaque to show the parallax effect more.
 -  Added a solid white background color to the header and footer to cover the background parallax effect image.
 -  X-axis overflow issue fixed.
+
+v0.2.3
+-   Changed the section background colors from pink or purple to white.
+-   Changed buttons from filled colour ones to no-fill, coloured border ones.
+-   Changed the footer background to a darker colour.
+-   Changed the colour of the current page on the nav-bar.
+-   Added a bit of colour to some of the headings (experimental).
