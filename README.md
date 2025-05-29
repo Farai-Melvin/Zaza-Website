@@ -27,3 +27,6 @@ v0.2.3
 -   Changed the footer background to a darker colour.
 -   Changed the colour of the current page on the nav-bar.
 -   Added a bit of colour to some of the headings (experimental).
+
+v0.2.4
+-   Added a prototype Brevo email Sign Up form.

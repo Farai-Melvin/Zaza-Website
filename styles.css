@@ -229,6 +229,22 @@ section {
   background-color: white;
 }
 
+#why-now-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#why-now-section  div {
+  max-width: 400px;
+  align-self: center;
+}
+
+#why-now-section iframe {
+  height: 550px;
+  width: 500px;
+}
+
 /*section:nth-of-type(2n){
   background: linear-gradient(
     var(--zazaorange),
