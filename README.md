@@ -19,3 +19,4 @@ v0.2.0
 -  Implemented the parallax effect and a placeholder background image.
 -  Switched to rounded card type sections for the layout. 95% opaque to show the parallax effect more.
 -  Added a solid white background color to the header and footer to cover the background parallax effect image.
+-  X-axis overflow issue fixed.
