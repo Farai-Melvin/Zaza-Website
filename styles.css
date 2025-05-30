@@ -204,8 +204,8 @@ footer a {
 }
 
 .list-item-div {
-  height: 200px;
-  max-width: 300px;
+  min-height: 200px;
+  width: 300px;
   border-radius: 15px;
   padding: 20px;
   margin-bottom: 10px;
@@ -274,7 +274,7 @@ p {
 }
 
 #parallax-bg {
-    background-image: url("./322695551386.jpg");
+    background-image: url("./images/322695551386.jpg");
     position: fixed;
     top: -600px;
     left: 0;
@@ -292,4 +292,14 @@ p {
 
   .secondary-color {
     color: var(--zazaorange)
+  }
+
+  #features-table {
+    border: 1px solid var(--zazaorange);
+    margin: auto;
+  }
+
+  #features-table td {
+    border: 1px solid var(--zazaorange);
+    padding: 10px;
   }

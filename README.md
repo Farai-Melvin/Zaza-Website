@@ -30,3 +30,8 @@ v0.2.3
 
 v0.2.4
 -   Added a prototype Brevo email Sign Up form.
+
+v0.2.7
+-   Fixed the features page table.
+-   Noticed renaming of classes and IDs required.
+-   Added a more card style focus to the layout (not sure if it's ideal, but it sure is what's there as of now).
