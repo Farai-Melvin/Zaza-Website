@@ -77,11 +77,11 @@ button {
 
 button:hover {
   opacity: 0.5;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 button:active {
-  transform: scale(0.8);
+  transform: scale(0.9);
 }
 
 .primary-btn {
@@ -190,6 +190,10 @@ footer a {
   body {
     width: 100%;
   }
+
+  .list-item-div {
+    padding: none;
+  }
 }
 
 .flex-ul {
@@ -201,15 +205,18 @@ footer a {
   padding: 40px;
   list-style: none;
   font-weight: 500;
+  gap: 10px;
 }
 
 .list-item-div {
   min-height: 200px;
-  width: 300px;
+  max-width: 300px;
   border-radius: 15px;
   padding: 20px;
   margin-bottom: 10px;
   border: 3px solid var(--zazapink);
+  max-height: 400px;
+  flex: 1 1 200px;
 }
 
 .card {
@@ -224,9 +231,11 @@ footer a {
 section {
   padding: 40px 40px;
   border-radius: 60px;
-  margin: 0 10px 30px 10px;
-  opacity: 95%;
+  margin: 10px auto 30px auto;
+  opacity: 97%;
   background-color: white;
+  max-width: 900px;
+  border: 2px solid var(--zazaorange)
 }
 
 #why-now-section {
@@ -274,32 +283,67 @@ p {
 }
 
 #parallax-bg {
-    background-image: url("./images/322695551386.jpg");
-    position: fixed;
-    top: -600px;
-    left: 0;
-    width: 100%;
-    height: 300vh;
-    border: 1px solid red;
-    background-size: cover;
-    background-position: center;
-    z-index: -1;
-  }
+  background-image: url("./images/322695551386.jpg");
+  position: fixed;
+  top: -600px;
+  left: 0;
+  width: 100%;
+  height: 300vh;
+  border: 1px solid red;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
 
-  .primary-color {
-    color: var(--zazapurple)
-  }
+.primary-color {
+  color: var(--zazapurple)
+}
 
-  .secondary-color {
-    color: var(--zazaorange)
-  }
+.secondary-color {
+  color: var(--zazaorange)
+}
 
-  #features-table {
-    border: 1px solid var(--zazaorange);
-    margin: auto;
-  }
+#features-table {
+  border: 2px solid var(--zazaorange);
+  margin: auto;
+  border-radius: 15px;
+}
 
-  #features-table td {
-    border: 1px solid var(--zazaorange);
-    padding: 10px;
-  }
+#features-table td {
+  border: 2px solid var(--zazaorange);
+  padding: 10px;
+  border-radius: 7px;
+}
+  
+#features-table th {
+  padding: 10px;
+}
+.faq-item {
+  border: 2px solid var(--zazaorange);
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 800px;
+  margin: 3px auto 3px auto;
+  text-align: left;
+}
+.faq-question {
+  cursor: pointer;
+  padding: 1em;
+  font-weight: bold;
+}
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+input[type="checkbox"] {
+  display: none;
+}
+input[type="checkbox"]:checked ~ .faq-answer {
+  max-height: 1500px; /* adjust as needed */
+  padding: 1em;
+}
+
+.faq-answer, #founder-section{
+  text-align: left;
+}

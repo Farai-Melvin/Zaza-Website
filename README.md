@@ -35,3 +35,8 @@ v0.2.7
 -   Fixed the features page table.
 -   Noticed renaming of classes and IDs required.
 -   Added a more card style focus to the layout (not sure if it's ideal, but it sure is what's there as of now).
+
+v0.3.0
+-   Bug fixes. (Overflow and responsiveness related.)
+-   Added faqs.html, contacts.html and about.html.
+-   Made the buttons redirect to the contact page for now.
